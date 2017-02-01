@@ -12,6 +12,7 @@
   get_url:
     dest: /etc/apt/sources.list.d/
     url: '{{ sysdig_repo_url }}'
+    mode: 0644
   register: result
   when: result|changed
 

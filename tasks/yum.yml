@@ -11,4 +11,5 @@
   get_url:
     dest: /etc/yum.repos.d/
     url: '{{ sysdig_repo_url }}'
+    mode: 0644
 
