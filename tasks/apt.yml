@@ -4,14 +4,14 @@
 
 - name: sysdig | install package key
   apt_key:
-    url: '{{ sysdig_key_url }}'
+    url: '{{ sysdig_repo_gpgkey_url }}'
     state: present
   register: result
 
 - name: sysdig | install repo
   get_url:
     dest: /etc/apt/sources.list.d/
-    url: '{{ sysdig_repo_url }}'
+    url: '{{ sysdig_aptrepo }}'
     mode: 0644
   register: result
   when: result|changed

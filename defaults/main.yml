@@ -1,2 +1,5 @@
 ---
 # defaults file for ansible-osquery
+sysdig_repo: http://download.draios.com/stable/rpm/draios.repo
+sysdig_repo_gpgkey_url: https://s3.amazonaws.com/download.draios.com/DRAIOS-GPG-KEY.public
+sysdig_atprepo: http://download.draios.com/stable/deb/draios.list

@@ -4,12 +4,12 @@
 
 - name: sysdig | install package key
   rpm_key:
-    key: '{{ sysdig_rpm_key }}'
+    key: '{{ sysdig_repo_gpgkey_url }}'
     state: present
 
 - name: sysdig | install repo
   get_url:
     dest: /etc/yum.repos.d/
-    url: '{{ sysdig_repo_url }}'
+    url: '{{ sysdig_repo }}'
     mode: 0644
 
