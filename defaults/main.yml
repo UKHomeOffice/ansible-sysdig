@@ -5,4 +5,4 @@ sysdig_repo_gpgkey_url: https://s3.amazonaws.com/download.draios.com/DRAIOS-GPG-
 sysdig_repo_enabled: True
 sysdig_repo_gpgcheck: False
 sysdig_repo_ssl_verify: False
-sysdig_atprepo: http://download.draios.com/stable/deb/draios.list
+sysdig_aptrepo: http://download.draios.com/stable/deb/draios.list
