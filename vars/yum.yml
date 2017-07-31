@@ -1,2 +1,4 @@
 ---
 sysdig_package: sysdig
+sysdig_version: 0.16.0-1.x86_64
+
