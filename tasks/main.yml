@@ -10,4 +10,3 @@
   package:
     name: '{{ sysdig_package }}'
     state: latest
-
