@@ -8,6 +8,6 @@
 
 - name: sysdig | install package
   package:
-    name: '{{ sysdig_package }}-{{ sysdig_version }}'
+    name: '{{ sysdig_package }}'
     state: latest
 
