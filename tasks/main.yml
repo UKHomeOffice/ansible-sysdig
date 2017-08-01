@@ -9,5 +9,5 @@
 - name: sysdig | install package
   package:
     name: '{{ sysdig_package }}-{{ sysdig_version }}'
-    state: latest
+    state: present
 
